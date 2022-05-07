@@ -31,4 +31,10 @@ func main() {
 
 	bookUp(&book)
 	fmt.Println(book)
+
+	branch()
+}
+
+func branch() {
+	fmt.Println("分支Test")
 }
